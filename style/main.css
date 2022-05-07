@@ -1,0 +1,114 @@
+:root{
+    --vermelho: #e50914;
+    --preto: #141414;    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body{
+    background: var(--preto);
+    background-size: hight=2000px;
+    font-family:'Arial Brack', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.logo-netflix{
+    width: 12%;
+    margin-left: 10px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    font-size: 18px;
+    margin-right: 50px;
+    
+}
+
+header nav a:hover{
+    color: #fff;
+
+}
+
+main div img{
+    width: 30%;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+ .filme-principal{
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, .15);
+    background: url('/img/lacasadepapel.jpg');
+    background-size: cover;
+    height: 640px;
+    display: flex;
+    flex-direction: column;    
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.titulo{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, .50);
+    color: white;
+    padding: 15px 30px;
+    margin-right: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: .5s ease all;
+    border: none;
+    
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botoes{
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+.container{
+    margin-left: 20px;
+    margin-top: 40px;
+
+}
+.filme-principal .container{
+    width: 50%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carousel-filmes{
+    margin-top: 10px;
+}
